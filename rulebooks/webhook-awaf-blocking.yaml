@@ -18,5 +18,6 @@
   ## Define the action we should take should the condition be met
 
       action:
-        run_playbook:
-          name: f5-playbooks/awaf-modification/awaf-blocking.yaml
+        run_job_template:
+          name: "AWAF-Blocking"
+          organization: "Default"
