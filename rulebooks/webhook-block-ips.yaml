@@ -16,6 +16,6 @@
       condition: event.payload.message == "Ansible Please Block Some IPs"
       action:
         run_job_template:
-          name: "Blocked IPs"
+          name: "Block IPs"
           organization: "Default"
           var_root: payload
