@@ -18,5 +18,6 @@
   ## Define the action we should take should the condition be met
 
       action:
-        run_playbook:
-          name: testing-playbooks/say-what.yaml
+        run_job_template:
+          name: "Say What Test"
+          organization: "Infrastructure"
