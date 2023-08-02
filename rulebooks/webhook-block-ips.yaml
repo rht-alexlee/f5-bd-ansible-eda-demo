@@ -12,10 +12,10 @@
   ## Define the conditions we are looking for
 
   rules:
-    - name: Say Hello
+    - name: Block IPs
       condition: event.payload.message == "Ansible Please Block Some IPs"
       action:
-        run_playbook:
-          name: f5-playbooks/block-ips-playbook/block-ips.yaml
+        run_job_template:
+          name: "Blocked IPs"
+          organization: "Default"
           var_root: payload
-          post_events: true
