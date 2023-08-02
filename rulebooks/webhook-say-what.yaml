@@ -19,5 +19,5 @@
 
       action:
         run_job_template:
-          name: "Say What Test"
+          name: "Say What"
           organization: "Default"
