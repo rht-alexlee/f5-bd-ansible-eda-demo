@@ -20,4 +20,4 @@
       action:
         run_job_template:
           name: "Say What Test"
-          organization: "Infrastructure"
+          organization: "Default"
