@@ -18,4 +18,6 @@
         run_job_template:
           name: "Block IPs"
           organization: "Default"
-          var_root: payload
+          job_args:
+            extra_vars:
+              message: "'Hi, World!' -Event-Driven Ansible"
