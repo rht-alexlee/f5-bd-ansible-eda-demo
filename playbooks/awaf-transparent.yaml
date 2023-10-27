@@ -1,7 +1,7 @@
 ---
 
 - name: Change ASM Policy Enforcement Mode
-  hosts: f5 
+  hosts: bigip-ve.hk.ntnxlab.local 
   connection: local
 
   vars:
