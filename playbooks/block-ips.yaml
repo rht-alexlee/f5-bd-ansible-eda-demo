@@ -8,7 +8,7 @@
     F5_VIP_Name: "{{ vip_name }}"
     F5_VIP_Port: "443"
     F5_Admin_Port: "443"
-    ASM_Policy_Name: "WAF-POLICY"
+    ASM_Policy_Name: "WAF-Policy"
     ASM_Policy_Directory: "/tmp/f5/"
     ASM_Policy_File: "WAF-POLICY.xml"
 
