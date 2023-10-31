@@ -139,11 +139,3 @@
       commands: "publish asm policy {{ ASM_Policy_Name }}"
       provider: "{{ provider }}"
     delegate_to: localhost
-
-#  This code could be implemented to ensure that the WAF Policy is in a Blocking state.
-# - name: Change ASM Policy to Blocking
-#   bigip_command:
-#     commands:
-#     - modify asm policy WAF-POLICY blocking-mode enabled
-#     - publish asm policy WAF-POLICY
-#     provider: "{{ provider }}"
